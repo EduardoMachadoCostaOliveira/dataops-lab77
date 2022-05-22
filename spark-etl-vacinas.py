@@ -7,7 +7,7 @@ from pyspark.sql.functions import *
 if __name__ == "__main__": 
 
 # INICIAR SESSÃO SPARK 
-	spark = SparkSession
+		spark = SparkSession
 		.builder
 		.appName("SparkETL")
 		.getOrCreate() 
